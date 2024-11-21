@@ -66,24 +66,36 @@ You will immediately see that the secrets are blocked and not sent to the large 
 
 ![secrets-blocked](images/secrets-blocked.png)
 
-#### I am feeling adventurous!
+### I am feeling adventurous!
 
-If you have Cursor Open, you can try to use the same method and see what happens.
+If you have Cursor installed, open this repository, you can try to use the same
+method and see what happens.
 
 ![cursor](./images/cursor.png)
 
-One more? Sure! GitHub Copilot is a popular tool that is used by many developers. Let's see what happens when pass it some secrets.
+Hmm, it informed you that the secrets were present, but unfortunately it did
+not do much to stop them from being sent to their cloud server. This is a
+serious security risk and should be avoided at all costs. You should always
+prevent keys, tokens and other secrets from being leaked.
+
+### One more? Sure! 
+
+How about GitHub Copilot (taps fingers Mr Burn's style), a hugley popular tool
+that is used by many developers. Surely that won't let secrets through?
 
 ![github](./images/copilot.png)
 
 Huh? What happened? Well nothing happened, the secrets were sent to the GitHub
-server, and CoPilot was not much help from there, at least Cursor gave us a 
-warning!
+cloud, and CoPilot was not much help from there, at least Cursor gave us a 
+warning! But zlich, nada, nothing from CoPilot at all?!
 
-So to wrap up, in both cases, the secrets are let through and sent to the large
-language model inference service (aka, the cloud, someone elses computer).
+So to wrap up, in both cases, the secrets are let through and sent to the cloud 
+based inference service (aka, the cloud, someone elses computer).
 
 ### Malicious Packages!
+
+Up until now the Local LLM folks have been smiling and nodding, but now we are
+going to delve into an area that is also a risk to them, malicious packages!
 
 Malicious packages are a real threat to developers. They can be used to
 compromise your system and steal your data.
@@ -117,7 +129,7 @@ does not exist in this codebase, so it is not even possible to install it (
 Python have already removed it after Stacklok reported it).
 
 What you will notice though is all of the useful information that is provides
-, the first is a link to TrustyPkg.dev a free service that provides information
+, the first is a link to trustypkg.dev a free service that provides information
 on the security of packages. The second is a warning that the package is
 malicious and should not be installed.
 
