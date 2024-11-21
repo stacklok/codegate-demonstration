@@ -1,4 +1,6 @@
-# ⚠️ Insecure Demo Application - DO NOT USE IN PRODUCTION ⚠️
+# ⚠️ Really Insecure Demo Application ⚠️
+
+![horror](./images/horror.png)
 
 This is a deliberately insecure demonstration project used to showcase various
 security vulnerabilities and bad practices twarted by the CodeGate project. 
