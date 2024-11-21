@@ -1,0 +1,16 @@
+{
+  "github": {
+    "token": "ghp_aBcDeFgHiJkLmNoPqRsTuVwXyZ0123456789",
+    "webhook_secret": "webhook_secret_abc123xyz789"
+  },
+  "api": {
+    "huggingface_token": "hf_bBAODNcobFfisrEkswDbsWbHrpsDExxxxx"
+  },
+  "sigstore": {
+    "sigstore_private_key": "-----BEGIN SIGSTORE PRIVATE KEY-----\nbase64encodeddata\n-----END SIGSTORE PRIVATE KEY-----"
+  },
+  "keys": {
+    "rsa_private_key": "-----BEGIN RSA PRIVATE KEY-----\nbase64encodeddata\n-----END RSA PRIVATE KEY-----",
+    "open_ssh_private_key": "-----BEGIN OPENSSH PRIVATE KEY-----\nbase64encodeddata\n-----END OPENSSH PRIVATE KEY-----"
+  }
+}
