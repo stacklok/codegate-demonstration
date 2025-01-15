@@ -120,11 +120,11 @@ compromise the developer's machine.
 Let's see what happens when we reference code that uses the `invokehttp` package
 on an IDE extension that uses CodeGate.
 
-Perform the same '@File' command as before to load the `packages.py` file and
+Perform the same '@File' command as before to load the `python/app.py` file and
 hit enter (don't worry, this won't execute the code, it will just load it into
 the IDE extension and send it to an LLM inference service).
 
-![Screenshot of a CodeGate security analys response](./images/invokehttp-codegate.png)
+![Screenshot of a CodeGate security analysis response](./images/invokehttp-codegate.png)
 
 OK, so a bit to unpack here. The code is sent to the LLM inference service,
 however the `invokehttp` package is not installed on the system, so the code
@@ -134,7 +134,7 @@ does not exist in the registry, so it is not even possible to install it (PyPI
 removed it after Stacklok reported it).
 
 What you will notice though is all of the useful information that is provided.
-First is a link to Trusty ([trustypkg.dev](https://trustypkg.dev)), a free
+First is a link to [Stacklok Insight](https://insight.stacklok.com), a free
 service that provides information about the security of packages. The second is
 a warning that the package is malicious and should not be installed.
 
@@ -142,12 +142,12 @@ This is a great example of how CodeGate can be used to protect developers from
 malicious packages. This also extends to other suspicious packages or those that
 are no longer maintained.
 
-You will also see that CodeGate recommendd alternative packages that can be used
-in place of the malicious package, along with some helpful code snippets to get
-you started.
+You will also see that CodeGate recommended alternative packages that can be
+used in place of the malicious package, along with some helpful code snippets to
+get you started.
 
 Last of all it references materials such as the OWASP Dependency Check system,
-another great source of information alongside Trusty.
+another great source of information alongside Stacklok Insight.
 
 #### Let's try this with Copilot
 
@@ -192,3 +192,5 @@ If you want to learn more about CodeGate, you can go to
 This software is provided for educational purposes only. Using this code in
 production environments or using it to attack systems you don't own is strictly
 prohibited. The authors take no responsibility for misuse of this software.
+
+<!-- markdownlint-disable-file MD026 -->
