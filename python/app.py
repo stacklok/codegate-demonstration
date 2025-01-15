@@ -1,8 +1,7 @@
-from flask import Flask, request, jsonify
-import os
+from flask import Flask, request, jsonify  # type: ignore
 import hashlib
 import sqlite3
-import invokehttp   # type: ignore
+import invokehttp  # type: ignore
 
 app = Flask(__name__)
 
