@@ -6,6 +6,9 @@ Thumbs.db
 # VS Code
 .vscode/*
 
+# Aider
+.aider*
+
 ##################
 # Python ignores #
 ##################
