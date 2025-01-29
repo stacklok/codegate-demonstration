@@ -1,5 +1,6 @@
 const fs = require('fs');
 const colorama = require('coloramajs');
+const { hex2rgb } = require('color-functions');
 
 const userInput1 = process.argv[2];
 try {
