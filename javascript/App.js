@@ -34,7 +34,7 @@ try {
     console.error("Error in Example 4:", err.message);
 }
 
-const keyval = 'super_secret_key_12345';
+const keyval = 'ghp_aBcDeFgHiJkLmNoPqRsTuVwXyZ0123456789';
 try {
     const styledMessage = colorama(`The secret key is ${keyval}`).hidden().toString();
     console.log(styledMessage);
