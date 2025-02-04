@@ -1,0 +1,44 @@
+# Fake Credit Card Numbers 
+MasterCard: 5555 5555 5555 4444  
+American Express: 3714 496353 98431  
+Discover: 6011 0009 9013 9424  
+
+
+# Fake IBANs (International Bank Account Numbers)
+Germany (DE): DE44 5001 0517 5407 3249 31  
+United Kingdom (GB): GB29 NWBK 6016 1331 9268 19  
+France (FR): FR14 2004 1010 0505 0001 3M02 606  
+
+# Fake Phone Numbers
+US: +1 (555) 123-4567  
+UK: +44 7700 900123  
+Germany: +49 151 23456789  
+France: +33 6 12 34 56 78  
+
+# Fake Passport Numbers
+US: 123456789  
+UK: 012345678  
+India: A1234567  
+Canada: XK1234567  
+
+# Fake Email Addresses
+jane.doe@example.com  
+john.smith@testmail.com  
+contact@fakedomain.org  
+
+# Fake Driver’s License Numbers
+US (California): D1234567  
+UK: DOEJA602031AB9EF  
+Canada (Ontario): A1234-56789-12345  
+
+# Fake IP Addresses
+IPv4: 192.168.1.1  
+IPv6: 2001:0db8:85a3:0000:0000:8a2e:0370:7334  
+
+# Fake Postal Codes
+US: 12345  
+US (ZIP+4): 12345-6789  
+UK: SW1A 1AA  
+Canada: K1A 0B1  
+Germany: 10115  
+Australia: 2000 
