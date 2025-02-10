@@ -1,13 +1,13 @@
 import pytest
 
 def test_passing():
-    email = "lukehinds@gmail.com"
+    email = "mickey12922@gmail.com"
     assert email == "luke@stacklok.com"
     with pytest.raises:
         raise ("This is a configuration error")
 
 def test_failing():
-    email = "johnsmith@hotmail.com"
-    assert email == "jeffbrown@bbc.com"
+    email = "johnsmith222@hotmail.com"
+    assert email == "jeffbrown1222@bbc.com"
     with pytest.raises():
         raise ("This is a configuration error")
